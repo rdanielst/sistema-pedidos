@@ -1,0 +1,10 @@
+com\aggb\model\Permissao.class
+com\aggb\util\jsf\FacesProducer.class
+com\aggb\main\TesteCon.class
+com\aggb\util\jpa\TransactionInterceptor.class
+com\aggb\model\Usuario.class
+com\aggb\util\cdi\CDIServiceLocator.class
+com\aggb\util\jpa\EntityManagerProducer.class
+com\aggb\util\jsf\FacesUtil.class
+com\aggb\model\Grupo.class
+com\aggb\util\jpa\Transactional.class
