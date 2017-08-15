@@ -19,13 +19,13 @@ public class EntityManagerProducer {
 	public EntityManagerProducer() {
 		factory = Persistence.createEntityManagerFactory("GerenciadorAcesso");
 	}
-	
-	@Produces @RequestScoped
+	@Produces 
+	@RequestScoped
 	public EntityManager createEntityManager() {
 		return (Session) factory.createEntityManager();
 	}
 	
-	public void closeEntityManager(@Disposes Session manager) {
+	public void closeEntityManager(Session manager) {
 		manager.close();
 	}
 

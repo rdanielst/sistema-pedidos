@@ -27,6 +27,8 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+		<java.version>1.8</java.version>
 	</properties>
 
 	<dependencies>
@@ -110,12 +112,13 @@
 
 
 		<!-- PrimeFaces (biblioteca de componentes) -->
+		<!-- https://mvnrepository.com/artifact/org.primefaces/primefaces -->
 		<dependency>
-			<groupId>org.primefaces</groupId>
-			<artifactId>primefaces</artifactId>
-			<version>6.1</version>
-			<scope>compile</scope>
+		    <groupId>org.primefaces</groupId>
+		    <artifactId>primefaces</artifactId>
+		    <version>6.1</version>
 		</dependency>
+
 
 		<dependency>
 			<groupId>org.primefaces.extensions</groupId>
